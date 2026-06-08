@@ -1,5 +1,7 @@
 # gem5 NoC 入门总览
 
+代码分类：`src/mem/ruby/network` 为主，配置侧关联 `configs/network` 和 `configs/topologies`。
+
 ## 1. 先说结论
 
 gem5 里的 NoC 主要出现在 Ruby 这条内存系统路径上。最简单的理解是：

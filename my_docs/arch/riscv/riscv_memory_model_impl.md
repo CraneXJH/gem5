@@ -1,5 +1,7 @@
 # gem5 RISC-V 内存模型入门
 
+代码分类：`src/arch/riscv` 为主，同时会关联 `src/cpu` 和 `src/mem`。
+
 ## 1. 先说结论
 
 gem5 里没有一个单独的 “RISC-V 内存模型引擎”。更容易上手的理解方式是：

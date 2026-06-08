@@ -1,5 +1,7 @@
 # gem5 CPU 到 L3 / 内存的简单流程
 
+代码分类：`src/mem/ruby` 为主，同时关联 `src/cpu` 和 Ruby 协议 controller。
+
 ## 1. 先说结论
 
 CPU 不会直接把请求发给 NoC，也不会直接和 L3 “裸连接”。真正负责协议交互的是 controller。
